@@ -19,15 +19,21 @@ Complemento personal de software.
 
 ### Links del proyecto
 
-- web:
-   - [https://carlosjimenohernandez.github.io/lsw-one](https://carlosjimenohernandez.github.io/lsw-one)
-- android: *los links expiran en 1 semana*
-   - última versión: [https://limewire.com/d/tQyal#vB9pVnHxJz](https://limewire.com/d/tQyal#vB9pVnHxJz)
+- Aplicación web:
+   - [https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/index.html](https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/index.html)
+- Proyecto github:
+   - Es oficialmente un **subproyecto** de **DGN Content Management System** y su github es una ruta de dentro de este proyecto.
+   - [https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app](https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app)
+- Documentación oficial:
+   - [https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app](https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app)
+- Referencia oficial:
+   - [https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/reference/](https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/reference/)
+- Aplicaciones Android: *los links expiran en 1 semana*
+   - última versión: [https://limewire.com/d/58DBE#WiwibaCreF](https://limewire.com/d/58DBE#WiwibaCreF)
+   - versión del 8 de septiembre de 2025: [https://limewire.com/d/58DBE#WiwibaCreF](https://limewire.com/d/58DBE#WiwibaCreF)
    - versión del 4 de septiembre de 2025: [https://limewire.com/d/tQyal#vB9pVnHxJz](https://limewire.com/d/tQyal#vB9pVnHxJz)
    - versión del 1 de septiembre de 2025: [https://limewire.com/d/IQSrD#vmRbOWUDr2](https://limewire.com/d/IQSrD#vmRbOWUDr2)
    - versión del 29 de agosto de 2025: [https://limewire.com/d/uJJjv#iyvI89x9Kh](https://limewire.com/d/uJJjv#iyvI89x9Kh)
-- github: [https://github.com/carlosjimenohernandez/lsw-one](https://github.com/carlosjimenohernandez/lsw-one)
-- documentación: [https://carlosjimenohernandez.github.io/lsw-one/reference](https://carlosjimenohernandez.github.io/lsw-one/reference)
 
 ### Aplicaciones
 
@@ -42,6 +48,7 @@ Las aplicaciones que vienen por defecto son:
    - 📦 Concepto
    - 📦 Nota
    - 📦 Articulo
+   - 📦 ... (otros)
 - 📂 Sistema de ficheros
    - ℹ️ Un sistema de ficheros totalmente virtual basado en [`IndexedDB`](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
    - ℹ️ Soporta ficheros:
