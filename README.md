@@ -2,16 +2,31 @@
 
 DGN Content Management System.
 
+## Index
+
+- [dgn-cms](#dgn-cms)
+  - [Index](#index)
+  - [Links](#links)
+  - [Introduction](#introduction)
+  - [Installation](#installation)
+  - [Development](#development)
+    - [Server-side development](#server-side-development)
+    - [Client-side development](#client-side-development)
+  - [Further info](#further-info)
+
 ## Links
 
 - Online app at:
    - [https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/](https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/)
 - Server app documentation at:
-   - [https://github.com/carlosjimenohernandez/restomatic](https://github.com/carlosjimenohernandez/restomatic)
+   - Source: [https://github.com/carlosjimenohernandez/restomatic](https://github.com/carlosjimenohernandez/restomatic)
 - Client app documentation at:
-   - [https://github.com/carlosjimenohernandez/lsw-one](https://github.com/carlosjimenohernandez/lsw-one)
+   - Source: [https://github.com/carlosjimenohernandez/lsw-one](https://github.com/carlosjimenohernandez/lsw-one)
+   - Reference: [https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/reference/](https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/reference/)
 
-## What is this?
+
+
+## Introduction
 
 DGN stands for DGN and nothing else. A good prefix for the components.
 
@@ -20,11 +35,11 @@ It is based on:
   - The server: [`@carlosjimenohernandez/restomatic`](https://github.com/carlosjimenohernandez/restomatic)
   - The client: [`@carlosjimenohernandez/lsw-one`](https://github.com/carlosjimenohernandez/lsw-one)
 
+
 ## Installation
 
 ```sh
-npm i -g @carlosjimenohernandez/dgn-cms
-npx dgn init .
+git clone https://github.com/carlosjimenohernandez/dgn-cms.git .
 ```
 
 ## Development
@@ -43,3 +58,9 @@ npm run dev
 cd src/app
 npm run code
 ```
+
+## Further info
+
+Explore the sources or mail me at:
+
+- [carlosjimenohernandez@gmail.com](mailto:carlosjimenohernandez@gmail.com)
