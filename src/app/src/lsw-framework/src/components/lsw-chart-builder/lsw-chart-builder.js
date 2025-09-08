@@ -30,7 +30,7 @@ return Plot.plot({ marks });`,
     async loadLibraries() {
       this.$trace("lsw-chart-builder.methods.loadLibraries");
       await LswLazyLoads.loadD3js();
-      await LswLazyLoads.loadPlot();
+      await LswLazyLoads.loadObservablePlot();
     },
     async render() {
       this.$trace("lsw-chart-builder.methods.render");

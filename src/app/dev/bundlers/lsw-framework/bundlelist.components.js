@@ -338,6 +338,8 @@ module.exports = Instrumenter.instrumentSet([
   `${basepath}/lsw-framework/src/components/lsw-molecules-renderer/lsw-molecules-renderer`,
   // PAINTER:
   `${basepath}/lsw-framework/src/components/lsw-painter/lsw-painter`,
+  // SIMPLE CHART:
+  `${basepath}/lsw-framework/src/components/lsw-simple-chart/lsw-simple-chart`,
   // CHART-BUILDER:
   `${basepath}/lsw-framework/src/components/lsw-chart-builder/lsw-chart-builder`,
   // SYNTAX-BUILDER:

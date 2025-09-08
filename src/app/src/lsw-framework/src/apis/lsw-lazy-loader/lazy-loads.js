@@ -172,7 +172,7 @@
   });
 
   LswLazyLoader.global.register({
-    alias: "plot.js",
+    alias: "observable-plot",
     url: "assets/lib/d3.js/plot.min.js",
     type: "scriptSrc",
     once: true,
@@ -265,8 +265,8 @@
       return LswLazyLoader.global.load("d3.js");
     }
 
-    static loadPlot() {
-      return LswLazyLoader.global.load("plot.js");
+    static loadObservablePlot() {
+      return LswLazyLoader.global.load("observable-plot");
     }
 
   };
