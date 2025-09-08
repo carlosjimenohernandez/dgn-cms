@@ -24,7 +24,7 @@ LswLauncher.global.register("sintaxis", "🔠 Sintaxis", (launchable) => LswLaun
 LswLauncher.global.register("rest-homepage", "📦 Datos en línea", (launchable) => LswLauncher.openDialog('<dgn-rest-homepage />', launchable.name));
 LswLauncher.global.register("filesystem-homepage", "📂 Ficheros en línea", (launchable) => LswLauncher.openDialog('<dgn-filesystem-homepage />', launchable.name));
 LswLauncher.global.register("login-homepage", "🔑 Identificación en línea", (launchable) => DgnLoginManager.global.askForToken());
-LswLauncher.global.register("pinturas", "🎨 Pinturas", (launchable) => LswLauncher.openDialog('<lsw-pinturas />', launchable.name));
+LswLauncher.global.register("pinturas", "🎨 Pinturas", (launchable) => LswLauncher.openDialog('<lsw-painter />', launchable.name));
 LswLauncher.global.register("nueva-feature", "✨ Nueva feature", (launchable) => LswLauncher.openDialog('<lsw-nueva-feature />', launchable.name));
 
 // @code.end: LswLauncher global registry
