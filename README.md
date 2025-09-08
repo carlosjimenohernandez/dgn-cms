@@ -5,7 +5,7 @@ DGN Content Management System.
 ## Links
 
 - Online app at:
-   - [https://carlosjimenohernandez.github.io/src/app/docs](https://carlosjimenohernandez.github.io/src/app/docs)
+   - [https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/](https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/)
 - Server app documentation at:
    - [https://github.com/carlosjimenohernandez/restomatic](https://github.com/carlosjimenohernandez/restomatic)
 - Client app documentation at:
