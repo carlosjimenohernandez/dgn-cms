@@ -19,10 +19,10 @@ DGN Content Management System.
 - Online app at:
    - [https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/](https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/)
 - Server app documentation at:
-   - Source: [https://github.com/carlosjimenohernandez/restomatic](https://github.com/carlosjimenohernandez/restomatic)
+   - Source: [https://github.com/carlosjimenohernandez/dgn-cms/tree/main/RESTOMATIC.md](https://github.com/carlosjimenohernandez/dgn-cms/tree/main/RESTOMATIC.md)
 - Client app documentation at:
-   - Source: [https://github.com/carlosjimenohernandez/lsw-one](https://github.com/carlosjimenohernandez/lsw-one)
-   - Reference: [https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/reference/](https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/reference/)
+   - Source: [https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app/README.md](https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app/README.md)
+   - Reference: [https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/reference/index.html](https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/reference/index.html)
 
 
 
@@ -32,8 +32,8 @@ DGN stands for DGN and nothing else. A good prefix for the components.
 
 It is based on:
 
-  - The server: [`@carlosjimenohernandez/restomatic`](https://github.com/carlosjimenohernandez/restomatic)
-  - The client: [`@carlosjimenohernandez/lsw-one`](https://github.com/carlosjimenohernandez/lsw-one)
+  - The server: [`@carlosjimenohernandez/restomatic`](https://github.com/carlosjimenohernandez/dgn-cms/tree/main/RESTOMATIC.md)
+  - The client: [`@carlosjimenohernandez/lsw-one`](https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app/README.md)
 
 
 ## Installation
