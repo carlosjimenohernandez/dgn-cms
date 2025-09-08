@@ -52,13 +52,14 @@ Las aplicaciones que vienen por defecto son:
 - 📂 Sistema de ficheros
    - ℹ️ Un sistema de ficheros totalmente virtual basado en [`IndexedDB`](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
    - ℹ️ Soporta ficheros:
-      - 🧾 *.js - [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-      - 🧾 *.css - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_syntax/Syntax)
-      - 🧾 *.html - [HTML](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax)
-      - 🧾 *.pegjs - [PEGjs](https://peggyjs.org/)
-      - 🧾 *.mmd - [mermaid](https://mermaid.js.org/intro/)
-      - 🧾 *.md - [markdown](https://www.markdownguide.org/basic-syntax/)
-         - con soporte para [LaTeX](https://en.wikibooks.org/wiki/LaTeX/Basics)
+      - 🧾 *.js - [`js`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+      - 🧾 *.js - [`js`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+      - 🧾 *.css - [`css`](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_syntax/Syntax)
+      - 🧾 *.html - [`html`](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax)
+      - 🧾 *.pegjs - [`pegjs`](https://peggyjs.org/)
+      - 🧾 *.mmd - [`mermaid`](https://mermaid.js.org/intro/)
+      - 🧾 *.md - [`markdown`](https://www.markdownguide.org/basic-syntax/)
+         - con soporte para [`latex`](https://en.wikibooks.org/wiki/LaTeX/Basics)
             - En misma línea con `$ latex $`
             - En múltiples líneas con `$$` y `$$`
    - 📄 `/kernel/agenda/randomizables.env`
@@ -74,7 +75,7 @@ Las aplicaciones que vienen por defecto son:
       - ℹ️ Script tipo WeekLang para:
          - Sintaxis `req`: requisitos de la semana
          - Sintaxis `set`: planes de la semana
-         - el *pegjs* está en:
+         - la sintaxis en *pegjs* está en:
             - [`./src/lsw-framework/src/apis/lsw-languages/weeklang/weeklang.pegjs`](./src/lsw-framework/src/apis/lsw-languages/weeklang/weeklang.pegjs)
          - el *ejemplo básico* está en:
             - [`./src/lsw-framework/src/apis/lsw-languages/weeklang/test/input/example.week`](./src/lsw-framework/src/apis/lsw-languages/weeklang/test/input/example.week)
@@ -89,7 +90,7 @@ Las aplicaciones que vienen por defecto son:
    - ℹ️ Puedes priorizar urgentes
 - 💬➕ Nueva nota
    - ℹ️ Para crear notas rápidas
-   - ℹ️ Soporta Markdown y LaTeX
+   - ℹ️ Soporta [`vue`](https://v2.vuejs.org/v2/api/), [`markdown`](https://www.markdownguide.org/basic-syntax/) y [`latex`](https://en.wikibooks.org/wiki/LaTeX/Basics)
 - 📖 Diario
    - ℹ️ Para un trackeo de texto a diario
    - ℹ️ Puedes ir de un día a otro
@@ -97,37 +98,42 @@ Las aplicaciones que vienen por defecto son:
    - ℹ️ Puedes hacer libros, categorías y artículos
 - 🔬➕ Nuevo artículo
    - ℹ️ Para crear artículos rápidamente
-   - ℹ️ Soporta Markdown y LaTeX
+   - ℹ️ Soporta [`vue`](https://v2.vuejs.org/v2/api/), [`markdown`](https://www.markdownguide.org/basic-syntax/) y [`latex`](https://en.wikibooks.org/wiki/LaTeX/Basics)
 - 🪲 Inspector de JS
    - ℹ️ Para inspeccionar cómodamente JS en vivo
 - 💻 Consola de JS
    - ℹ️ Basada en [`eruda`](https://github.com/liriliri/eruda)
 - ♨️ Datos volátiles
-   - ℹ️ Para tener una base de datos
-   - ℹ️ Orientada a datos desestructurados
-   - ℹ️ Solo soporta strings como tipo de dato
-   - ℹ️ Máxima flexibilidad para crear tablas y filas
+   - ℹ️ Para tener una base de datos con esquema cambiante
+- 🐱 Emojis
+   - ℹ️ Para recuperar emojis rápidamente
+- 📹 Trackeables
+   - ℹ️ Captura frecuencia de eventos de la realidad
+   - ℹ️ Monitoriza y persiste tu circunstancia
 - ✅ Tests de aplicación
    - ℹ️ Tiene los tests principales de la aplicación
    - ⚠️ Orientada a desarrollo
-   - ℹ️ En activo
-   - ℹ️ Permite comprobar la salud de la aplicación
-- 🐱 Emojis
-   - ℹ️ Para recuperar emojis rápidamente
-- 🔧 Configuraciones
-   - ℹ️ Permite acceder a ciertas configuraciones de la aplicación
+   - ℹ️ En activo, permite comprobar la salud de la aplicación
 - √ Ecuaciones
    - ℹ️ Permite resolver ecuaciones complejas
    - ℹ️ Se basa en [`math.js`](https://mathjs.org/docs/expressions/syntax.html)
 - ⚛️ Moléculas
    - ℹ️ Permite visualizar moléculas en 2D
-   - ℹ️ Se basa en SMILES (Simplified Molecular Input Line Entry System )
+   - ℹ️ Se basa en [`smiles`](https://es.wikipedia.org/wiki/SMILES) (Simplified Molecular Input Line Entry System )
       - [Tutorial de SMILES por Daylight](https://www.daylight.com/dayhtml/doc/theory/theory.smiles.html)
       - [Entrada de Wikipedia](https://es.wikipedia.org/wiki/SMILES)
       - [DOI a mencionar si se usa este código](https://pubs.acs.org/doi/10.1021/acs.jcim.7b00425)
-- 📹 Trackeables
-   - ℹ️ Captura frecuencia de eventos de la realidad
-   - ℹ️ Monitoriza y persiste tu circunstancia
+- 🔠 Sintaxis
+   - ℹ️ Permite crear sintaxis para JavaScript rápidamente
+   - ℹ️ Se basa en [`pegjs/peggyjs`](https://github.com/peggyjs/peggy)
+- 🎨 Pinturas
+   - ℹ️ Permite crear lienzos rápidamente
+   - ℹ️ Se basa en [`pixi`](https://pixijs.download/release/docs/index.html)
+- 📊 Constructor de gráficas
+   - ℹ️ Permite crear gráficas complejas rápidamente
+   - ℹ️ Se basa en [`observable plot`](https://observablehq.com/plot/what-is-plot)
+- 🔧 Configuraciones
+   - ℹ️ Permite acceder a ciertas configuraciones de la aplicación
 - ✨ Nueva feature 
    - ⚠️ Orientada a desarrollo
    - ℹ️ En activo siempre
