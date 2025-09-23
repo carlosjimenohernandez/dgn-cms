@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "npx nodemon -w src/controllers -w src/main -w src/utils -e 'js' -x 'node build.js'",
     "build": "node build.js",
-    "test": "echo 'no test yet'"
+    "start": "bash test.sh"
   },
   "keywords": [],
   "author": "carlosjimenohernandez",
@@ -20,6 +20,7 @@
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "multer": "^2.0.2",
+    "socket.io": "^4.8.1",
     "sqlstring": "^2.3.3"
   }
 }

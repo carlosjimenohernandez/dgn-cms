@@ -27,6 +27,7 @@ LswLauncher.global.register("configuraciones", "🔧 Configuraciones", (launchab
 // Últimos - vinculados al DGN-CMS y no apps independientes:
 LswLauncher.global.register("rest-homepage", "📦 Datos en línea", (launchable) => LswLauncher.openDialog('<dgn-rest-homepage />', launchable.name));
 LswLauncher.global.register("filesystem-homepage", "📂 Ficheros en línea", (launchable) => LswLauncher.openDialog('<dgn-filesystem-homepage />', launchable.name));
+LswLauncher.global.register("chat", "💬 Chat en línea", (launchable) => LswLauncher.openDialog('<dgn-chat-homepage />', launchable.name));
 LswLauncher.global.register("login-homepage", "🔑 Identificación en línea", (launchable) => DgnLoginManager.global.askForToken());
 
 // @code.end: LswLauncher global registry

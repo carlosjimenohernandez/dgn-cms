@@ -38,6 +38,7 @@ module.exports = [
   "src/controllers/api/v1/filesystem/writeFile.js",
   "src/controllers/api/v1/filesystem/deleteFile.js",
   "src/controllers/api/v1/filesystem/isFile.js",
+  "src/controllers/api/v1/sockets/listSockets.js",
   "src/main/002.get-parameters.js",
   "src/main/003.create-database.js",
   "src/main/004.create-application.js",

@@ -367,6 +367,8 @@ module.exports = Instrumenter.instrumentSet([
   `${basepath}/lsw-framework/src/apis/dgn-fetch/dgn-fetch.js`,
   // DGN LOGIN MANAGER
   `${basepath}/lsw-framework/src/apis/dgn-login-manager/dgn-login-manager.js`,
+  // DGN CHAT UI
+  `${basepath}/lsw-framework/src/components/dgn-chat-ui/dgn-chat-homepage/dgn-chat-homepage`,
   // DGN REST UI
   `${basepath}/lsw-framework/src/components/dgn-rest-ui/dgn-rest-homepage/dgn-rest-homepage`,
   `${basepath}/lsw-framework/src/components/dgn-rest-ui/dgn-rest-schema/dgn-rest-schema`,

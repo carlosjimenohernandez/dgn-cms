@@ -262,13 +262,13 @@ table.basic_table > thead > tr > th:last-child {
 .item_app {
     display: inline-block;
     padding-bottom: 1px;
-    padding-right: 4px;
+    padding-right: 1px;
     font-size: 11px;
 }
 .nombre_app {
     background-color: rgba(0,0,0,0.7);
     color: rgba(255,255,255,1);
-
+    min-height: 35px;
     border: 1px solid #333;
     border-radius: 3pt;
     padding: 4px;
@@ -4341,18 +4341,25 @@ div.codeblock {
 
 /* @vuebundler[Lsw_framework_components][234]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/apis/dgn-login-manager/dgn-login-manager.js*/
 
-/* @vuebundler[Lsw_framework_components][235]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-homepage/dgn-rest-homepage.html*/
+/* @vuebundler[Lsw_framework_components][235]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-chat-ui/dgn-chat-homepage/dgn-chat-homepage.html*/
 
-/* @vuebundler[Lsw_framework_components][235]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-homepage/dgn-rest-homepage.js*/
+/* @vuebundler[Lsw_framework_components][235]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-chat-ui/dgn-chat-homepage/dgn-chat-homepage.js*/
 
-/* @vuebundler[Lsw_framework_components][235]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-homepage/dgn-rest-homepage.css*/
+/* @vuebundler[Lsw_framework_components][235]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-chat-ui/dgn-chat-homepage/dgn-chat-homepage.css*/
+
+
+/* @vuebundler[Lsw_framework_components][236]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-homepage/dgn-rest-homepage.html*/
+
+/* @vuebundler[Lsw_framework_components][236]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-homepage/dgn-rest-homepage.js*/
+
+/* @vuebundler[Lsw_framework_components][236]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-homepage/dgn-rest-homepage.css*/
 .dgn_rest_homepage {}
 
-/* @vuebundler[Lsw_framework_components][236]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-schema/dgn-rest-schema.html*/
+/* @vuebundler[Lsw_framework_components][237]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-schema/dgn-rest-schema.html*/
 
-/* @vuebundler[Lsw_framework_components][236]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-schema/dgn-rest-schema.js*/
+/* @vuebundler[Lsw_framework_components][237]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-schema/dgn-rest-schema.js*/
 
-/* @vuebundler[Lsw_framework_components][236]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-schema/dgn-rest-schema.css*/
+/* @vuebundler[Lsw_framework_components][237]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-schema/dgn-rest-schema.css*/
 .dgn_rest_schema {}
 
 .dgn_rest_schema .columna_item {
@@ -4368,48 +4375,48 @@ div.codeblock {
 }
 
 
-/* @vuebundler[Lsw_framework_components][237]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-table/dgn-rest-table.html*/
+/* @vuebundler[Lsw_framework_components][238]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-table/dgn-rest-table.html*/
 
-/* @vuebundler[Lsw_framework_components][237]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-table/dgn-rest-table.js*/
+/* @vuebundler[Lsw_framework_components][238]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-table/dgn-rest-table.js*/
 
-/* @vuebundler[Lsw_framework_components][237]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-table/dgn-rest-table.css*/
+/* @vuebundler[Lsw_framework_components][238]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-table/dgn-rest-table.css*/
 .dgn_rest_table {}
 
-/* @vuebundler[Lsw_framework_components][238]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-row/dgn-rest-row.html*/
+/* @vuebundler[Lsw_framework_components][239]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-row/dgn-rest-row.html*/
 
-/* @vuebundler[Lsw_framework_components][238]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-row/dgn-rest-row.js*/
+/* @vuebundler[Lsw_framework_components][239]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-row/dgn-rest-row.js*/
 
-/* @vuebundler[Lsw_framework_components][238]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-row/dgn-rest-row.css*/
+/* @vuebundler[Lsw_framework_components][239]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-rest-ui/dgn-rest-row/dgn-rest-row.css*/
 .dgn_rest_row {}
 
-/* @vuebundler[Lsw_framework_components][239]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-homepage/dgn-filesystem-homepage.html*/
+/* @vuebundler[Lsw_framework_components][240]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-homepage/dgn-filesystem-homepage.html*/
 
-/* @vuebundler[Lsw_framework_components][239]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-homepage/dgn-filesystem-homepage.js*/
+/* @vuebundler[Lsw_framework_components][240]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-homepage/dgn-filesystem-homepage.js*/
 
-/* @vuebundler[Lsw_framework_components][239]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-homepage/dgn-filesystem-homepage.css*/
-
-
-/* @vuebundler[Lsw_framework_components][240]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-explorer/dgn-filesystem-explorer.html*/
-
-/* @vuebundler[Lsw_framework_components][240]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-explorer/dgn-filesystem-explorer.js*/
-
-/* @vuebundler[Lsw_framework_components][240]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-explorer/dgn-filesystem-explorer.css*/
+/* @vuebundler[Lsw_framework_components][240]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-homepage/dgn-filesystem-homepage.css*/
 
 
-/* @vuebundler[Lsw_framework_components][241]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-editor/dgn-filesystem-editor.html*/
+/* @vuebundler[Lsw_framework_components][241]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-explorer/dgn-filesystem-explorer.html*/
 
-/* @vuebundler[Lsw_framework_components][241]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-editor/dgn-filesystem-editor.js*/
+/* @vuebundler[Lsw_framework_components][241]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-explorer/dgn-filesystem-explorer.js*/
 
-/* @vuebundler[Lsw_framework_components][241]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-editor/dgn-filesystem-editor.css*/
+/* @vuebundler[Lsw_framework_components][241]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-explorer/dgn-filesystem-explorer.css*/
 
 
-/* @vuebundler[Lsw_framework_components][242]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/lsw-api.js*/
+/* @vuebundler[Lsw_framework_components][242]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-editor/dgn-filesystem-editor.html*/
 
-/* @vuebundler[Lsw_framework_components][243]=/home/carlos/Escritorio/dgn-cms/src/app/src/modules/app/app.html*/
+/* @vuebundler[Lsw_framework_components][242]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-editor/dgn-filesystem-editor.js*/
 
-/* @vuebundler[Lsw_framework_components][243]=/home/carlos/Escritorio/dgn-cms/src/app/src/modules/app/app.js*/
+/* @vuebundler[Lsw_framework_components][242]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/components/dgn-filesystem-ui/dgn-filesystem-editor/dgn-filesystem-editor.css*/
 
-/* @vuebundler[Lsw_framework_components][243]=/home/carlos/Escritorio/dgn-cms/src/app/src/modules/app/app.css*/
+
+/* @vuebundler[Lsw_framework_components][243]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/src/lsw-api.js*/
+
+/* @vuebundler[Lsw_framework_components][244]=/home/carlos/Escritorio/dgn-cms/src/app/src/modules/app/app.html*/
+
+/* @vuebundler[Lsw_framework_components][244]=/home/carlos/Escritorio/dgn-cms/src/app/src/modules/app/app.js*/
+
+/* @vuebundler[Lsw_framework_components][244]=/home/carlos/Escritorio/dgn-cms/src/app/src/modules/app/app.css*/
 :root {
     --button_height: 42px;
 }
@@ -5460,9 +5467,9 @@ pre.codeblock {
     cursor: grab;
 }
 
-/* @vuebundler[Lsw_framework_components][244]=/home/carlos/Escritorio/dgn-cms/src/app/src/bootloader/boot.js*/
+/* @vuebundler[Lsw_framework_components][245]=/home/carlos/Escritorio/dgn-cms/src/app/src/bootloader/boot.js*/
 
-/* @vuebundler[Lsw_framework_components][245]=/home/carlos/Escritorio/dgn-cms/src/app/src/bootloader/framework-payload.js*/
+/* @vuebundler[Lsw_framework_components][246]=/home/carlos/Escritorio/dgn-cms/src/app/src/bootloader/framework-payload.js*/
 
 
 /* @vuebundler[Litestarter_app][2]=/home/carlos/Escritorio/dgn-cms/src/app/src/lsw-framework/lsw-framework.js*/

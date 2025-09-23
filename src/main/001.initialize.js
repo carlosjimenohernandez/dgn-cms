@@ -10,6 +10,9 @@ const Restomatic = {
         filesystem: {
           // @OK
         },
+        sockets: {
+          // @OK
+        },
       }
     }
   },
